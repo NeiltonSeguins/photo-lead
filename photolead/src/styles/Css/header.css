@@ -11,7 +11,11 @@
 @media (max-width: 767.98px) {
   .header div {
     width: 313px;
-    margin: 0 5px;
+  }
+}
+@media (min-width: 768px) and (max-width: 1199.98px) {
+  .header div {
+    width: 720px;
   }
 }
 @media (min-width: 1200px) {
@@ -70,6 +74,11 @@
   }
 }
 @media (max-width: 767.98px) {
+  .header_button {
+    display: none;
+  }
+}
+@media (min-width: 768px) and (max-width: 1199.98px) {
   .header_button {
     display: none;
   }

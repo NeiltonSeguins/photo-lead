@@ -10,7 +10,9 @@ $secondary-color: rgb(12, 12, 12);
   & div {
     @include for-phone-only {
       width: 313px;
-      margin: 0 5px;
+    }
+    @include for-tablet-only {
+      width: 720px;
     }
     @include for-desktop-only {
       width: 1170px;
@@ -73,6 +75,10 @@ $secondary-color: rgb(12, 12, 12);
     }
 
     @include for-phone-only {
+      display: none;
+    }
+
+    @include for-tablet-only {
       display: none;
     }
   }
