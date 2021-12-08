@@ -8,14 +8,12 @@
   display: flex;
   flex-direction: column;
   align-items: center;
+  justify-content: space-around;
+  height: 465px;
 
   @include for-desktop-only {
     height: 600px;
     justify-content: space-evenly;
-  }
-  @include for-phone-only {
-    height: 465px;
-    justify-content: space-around;
   }
 
   &_title {
@@ -31,6 +29,12 @@
       font-size: 34px;
       line-height: 42px;
     }
+    @include for-tablet-only {
+      width: 535px;
+      height: 168px;
+      font-size: 42px;
+      line-height: 50px;
+    }
 
     font-family: $font;
     text-align: start;
@@ -45,6 +49,9 @@
     @include for-phone-only {
       width: 313px;
     }
+    @include for-tablet-only {
+      width: 538px;
+    }
     display: flex;
     justify-content: start;
     align-items: center;
@@ -54,15 +61,13 @@
     @include for-desktop-only {
       height: 70px;
     }
-    @include for-phone-only {
-      height: 44px;
-    }
+    height: 44px;
     width: 85%;
     border: none;
     border-radius: 8px 0 0 8px;
 
     &::placeholder {
-      @include for-phone-only{
+      @include for-phone-only {
         font-size: 14px;
       }
       padding: 20px;
@@ -73,13 +78,13 @@
   &_button {
     width: 10%;
     height: 100%;
-    color: $primary-color;
+    background-color: $primary-color;
     border-radius: 0 8px 8px 0;
     border: none;
     cursor: pointer;
 
-    & img{
-      @include for-phone-only{
+    & img {
+      @include for-phone-only {
         width: 12.7px;
         height: 12.62px;
       }

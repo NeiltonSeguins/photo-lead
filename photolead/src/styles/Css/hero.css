@@ -6,17 +6,13 @@
   display: flex;
   flex-direction: column;
   align-items: center;
+  justify-content: space-around;
+  height: 465px;
 }
 @media (min-width: 1200px) {
   .hero {
     height: 600px;
     justify-content: space-evenly;
-  }
-}
-@media (max-width: 767.98px) {
-  .hero {
-    height: 465px;
-    justify-content: space-around;
   }
 }
 .hero_title {
@@ -41,6 +37,14 @@
     line-height: 42px;
   }
 }
+@media (min-width: 768px) and (max-width: 1199.98px) {
+  .hero_title {
+    width: 535px;
+    height: 168px;
+    font-size: 42px;
+    line-height: 50px;
+  }
+}
 .hero_form {
   display: flex;
   justify-content: start;
@@ -56,7 +60,13 @@
     width: 313px;
   }
 }
+@media (min-width: 768px) and (max-width: 1199.98px) {
+  .hero_form {
+    width: 538px;
+  }
+}
 .hero_input {
+  height: 44px;
   width: 85%;
   border: none;
   border-radius: 8px 0 0 8px;
@@ -64,11 +74,6 @@
 @media (min-width: 1200px) {
   .hero_input {
     height: 70px;
-  }
-}
-@media (max-width: 767.98px) {
-  .hero_input {
-    height: 44px;
   }
 }
 .hero_input::placeholder {
@@ -83,7 +88,7 @@
 .hero_button {
   width: 10%;
   height: 100%;
-  color: #f7f7f7;
+  background-color: #f7f7f7;
   border-radius: 0 8px 8px 0;
   border: none;
   cursor: pointer;
