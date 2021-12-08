@@ -1,0 +1,98 @@
+.hero {
+  background-image: url("../../img/hero-bg.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+@media (min-width: 1200px) {
+  .hero {
+    height: 600px;
+    justify-content: space-evenly;
+  }
+}
+@media (max-width: 767.98px) {
+  .hero {
+    height: 465px;
+    justify-content: space-around;
+  }
+}
+.hero_title {
+  font-family: "Poppins", sans-serif;
+  text-align: start;
+  font-weight: 700;
+  color: #f7f7f7;
+}
+@media (min-width: 1200px) {
+  .hero_title {
+    width: 812px;
+    height: 224px;
+    font-size: 48px;
+    line-height: 56px;
+  }
+}
+@media (max-width: 767.98px) {
+  .hero_title {
+    width: 313px;
+    height: 294px;
+    font-size: 34px;
+    line-height: 42px;
+  }
+}
+.hero_form {
+  display: flex;
+  justify-content: start;
+  align-items: center;
+}
+@media (min-width: 1200px) {
+  .hero_form {
+    width: 812px;
+  }
+}
+@media (max-width: 767.98px) {
+  .hero_form {
+    width: 313px;
+  }
+}
+.hero_input {
+  width: 85%;
+  border: none;
+  border-radius: 8px 0 0 8px;
+}
+@media (min-width: 1200px) {
+  .hero_input {
+    height: 70px;
+  }
+}
+@media (max-width: 767.98px) {
+  .hero_input {
+    height: 44px;
+  }
+}
+.hero_input::placeholder {
+  padding: 20px;
+  font-size: 18px;
+}
+@media (max-width: 767.98px) {
+  .hero_input::placeholder {
+    font-size: 14px;
+  }
+}
+.hero_button {
+  width: 10%;
+  height: 100%;
+  color: #f7f7f7;
+  border-radius: 0 8px 8px 0;
+  border: none;
+  cursor: pointer;
+}
+@media (max-width: 767.98px) {
+  .hero_button img {
+    width: 12.7px;
+    height: 12.62px;
+  }
+}
+
+/*# sourceMappingURL=hero.css.map */

@@ -1,0 +1,88 @@
+@import "style";
+
+.hero {
+  background-image: url("../../img/hero-bg.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+  @include for-desktop-only {
+    height: 600px;
+    justify-content: space-evenly;
+  }
+  @include for-phone-only {
+    height: 465px;
+    justify-content: space-around;
+  }
+
+  &_title {
+    @include for-desktop-only {
+      width: 812px;
+      height: 224px;
+      font-size: 48px;
+      line-height: 56px;
+    }
+    @include for-phone-only {
+      width: 313px;
+      height: 294px;
+      font-size: 34px;
+      line-height: 42px;
+    }
+
+    font-family: $font;
+    text-align: start;
+    font-weight: 700;
+    color: $primary-color;
+  }
+
+  &_form {
+    @include for-desktop-only {
+      width: 812px;
+    }
+    @include for-phone-only {
+      width: 313px;
+    }
+    display: flex;
+    justify-content: start;
+    align-items: center;
+  }
+
+  &_input {
+    @include for-desktop-only {
+      height: 70px;
+    }
+    @include for-phone-only {
+      height: 44px;
+    }
+    width: 85%;
+    border: none;
+    border-radius: 8px 0 0 8px;
+
+    &::placeholder {
+      @include for-phone-only{
+        font-size: 14px;
+      }
+      padding: 20px;
+      font-size: 18px;
+    }
+  }
+
+  &_button {
+    width: 10%;
+    height: 100%;
+    color: $primary-color;
+    border-radius: 0 8px 8px 0;
+    border: none;
+    cursor: pointer;
+
+    & img{
+      @include for-phone-only{
+        width: 12.7px;
+        height: 12.62px;
+      }
+    }
+  }
+}
