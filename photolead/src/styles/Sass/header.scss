@@ -1,0 +1,88 @@
+@import "style";
+
+$font: "Poppins", sans-serif;
+$primary-color: rgb(247, 247, 247);
+$secondary-color: rgb(12, 12, 12);
+
+.header {
+  background-color: $secondary-color;
+
+  & div {
+    @include for-phone-only {
+      width: 313px;
+      margin: 0 5px;
+    }
+    @include for-desktop-only {
+      width: 1170px;
+    }
+    height: 70px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0 auto;
+  }
+
+  &_img {
+    @include for-desktop-only {
+      max-height: 45px;
+      max-width: 49px;
+    }
+    @include for-phone-only {
+      max-height: 39px;
+      max-width: 35.82px;
+    }
+    @include for-tablet-only {
+      max-height: 45px;
+      max-width: 49px;
+    }
+  }
+
+  &_nav {
+    display: flex;
+    align-items: center;
+  }
+
+  &_ul {
+    display: flex;
+    margin-right: 1rem;
+    text-decoration: none;
+  }
+
+  &_li {
+    font-family: $font;
+    color: $primary-color;
+    margin: 0 1rem;
+    cursor: pointer;
+  }
+
+  &_button {
+    @include for-desktop-only {
+      background-color: transparent;
+      color: $primary-color;
+      font-family: $font;
+      width: 167px;
+      height: 40px;
+      border: 1px solid $primary-color;
+      border-radius: 0.5rem;
+      cursor: pointer;
+      &:hover {
+        background-color: $primary-color;
+        color: $secondary-color;
+        font-weight: 700;
+      }
+    }
+
+    @include for-phone-only {
+      display: none;
+    }
+  }
+
+  &_icon {
+    @include for-phone-only {
+      margin-right: 5px;
+    }
+    @include for-desktop-only{
+      display: none;
+    }
+  }
+}
