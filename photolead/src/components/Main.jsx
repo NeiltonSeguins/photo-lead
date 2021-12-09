@@ -1,5 +1,7 @@
 import React from "react";
-import Hero from "../components/Hero";
+import Hero from "./Hero";
+import Gallery from "./Gallery";
+
 import '../styles/Css/main.css'
 
 const Main = () => {
@@ -15,7 +17,7 @@ const Main = () => {
           </ul>
           <div className="main_span"></div>
         </nav>
-        <div className="main_photos"></div>
+        <Gallery/>
       </main>
     </>
   );

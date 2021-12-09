@@ -1,0 +1,17 @@
+@import "style";
+
+.button {
+  @include for-desktop-only {
+    width: 1170px;
+    height: 51px;
+  }
+
+  border-radius: 8px;
+  border: none;
+  font-size: 18px;
+  background: $secondary-color;
+  color: $primary-color;
+  font-family: $font;
+  margin: 20px auto;
+  cursor: pointer;
+}

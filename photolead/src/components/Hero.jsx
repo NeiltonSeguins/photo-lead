@@ -1,5 +1,5 @@
 import React from "react";
-import search from '../img/search.svg'
+import svg from '../img/search.svg'
 import "../styles/Css/hero.css";
 
 const Hero = () => {
@@ -17,7 +17,7 @@ const Hero = () => {
             type="text"
             placeholder="Busque imagens gratuitas"
           />
-          <button className="hero_button"><img src={search} alt='Botão para pesquisar imagens'/></button>
+          <button className="hero_button"><img src={svg} alt='Botão para pesquisar imagens'/></button>
         </form>
       </section>
     </>
