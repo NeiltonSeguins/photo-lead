@@ -1,6 +1,8 @@
 .button {
+  width: 95%;
   border-radius: 8px;
   border: none;
+  height: 51px;
   font-size: 18px;
   background: #0c0c0c;
   color: #f7f7f7;
@@ -11,7 +13,16 @@
 @media (min-width: 1200px) {
   .button {
     width: 1170px;
-    height: 51px;
+  }
+}
+@media (min-width: 768px) and (max-width: 1199.98px) {
+  .button {
+    font-size: 14px;
+  }
+}
+@media (max-width: 767.98px) {
+  .button {
+    font-size: 12px;
   }
 }
 
