@@ -7,7 +7,7 @@ const Gallery = () => {
   const [data, setData] = useState([]);
 
   useEffect(() => {
-    fetch(" https://api.pexels.com/v1/search?query=cats", {
+    fetch(" https://api.pexels.com/v1/search?query=dog", {
       headers: {
         Authorization: apiKey,
       },
