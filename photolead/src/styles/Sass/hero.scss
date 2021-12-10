@@ -60,11 +60,20 @@
   &_input {
     @include for-desktop-only {
       height: 70px;
+      font-size: 18px;
+    }
+    @include for-phone-only {
+      font-size: 16px;
     }
     height: 44px;
     width: 85%;
     border: none;
     border-radius: 8px 0 0 8px;
+    padding-left: 16px;
+
+    &:focus{
+      outline-width: 0;
+    }
 
     &::placeholder {
       @include for-phone-only {

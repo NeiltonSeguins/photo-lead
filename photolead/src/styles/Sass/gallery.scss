@@ -23,6 +23,18 @@
     padding: 0 16px;
   }
 
+  &_container {
+    position: relative;
+  }
+
+  &_author {
+    position: absolute;
+    bottom: 24px;
+    left: 8px;
+    font-size: 12px;
+    color: $primary-color;
+  }
+
   &_photo {
     width: 100%;
     border-radius: 8px;
@@ -30,5 +42,34 @@
     transition: all 350ms ease;
     cursor: pointer;
     margin-bottom: 16px;
+
+    &:hover{
+      filter: brightness(.5);
+    }
+  }
+
+  &_button {
+    @include for-desktop-only {
+      width: 1170px;
+    }
+  
+    @include for-tablet-only {
+      font-size: 14px;
+    }
+  
+    @include for-phone-only {
+      font-size: 12px;
+    }
+  
+    width: 95%;
+    border-radius: 8px;
+    border: none;
+    height: 51px;
+    font-size: 18px;
+    background: $secondary-color;
+    color: $primary-color;
+    font-family: $font;
+    margin: 20px auto;
+    cursor: pointer;
   }
 }

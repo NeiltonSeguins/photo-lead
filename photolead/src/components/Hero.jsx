@@ -1,5 +1,5 @@
 import React from "react";
-import svg from '../img/search.svg'
+import svg from "../img/search.svg";
 import "../styles/Css/hero.css";
 
 const Hero = () => {
@@ -10,14 +10,17 @@ const Hero = () => {
           Fotos profissionais gratuitas e imagens compartilhadas por criadores
           para você utilizar em seus projetos
         </h1>
-        <form action="" className="hero_form">
+        <form className="hero_form" aria aria-required>
           <label htmlFor="hero"></label>
-          <input name="hero"
+          <input
+            name="hero"
             className="hero_input"
             type="text"
             placeholder="Busque imagens gratuitas"
           />
-          <button className="hero_button"><img src={svg} alt='Botão para pesquisar imagens'/></button>
+          <button className="hero_button">
+            <img src={svg} alt="Botão para pesquisar imagens" />
+          </button>
         </form>
       </section>
     </>

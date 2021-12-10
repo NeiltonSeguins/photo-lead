@@ -2,7 +2,7 @@ import React from "react";
 import Hero from "./Hero";
 import Gallery from "./Gallery";
 
-import '../styles/Css/main.css'
+import "../styles/Css/main.css";
 
 const Main = () => {
   return (
@@ -17,7 +17,7 @@ const Main = () => {
           </ul>
           <div className="main_span"></div>
         </nav>
-        <Gallery/>
+        <Gallery />
       </main>
     </>
   );
