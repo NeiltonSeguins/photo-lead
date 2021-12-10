@@ -5,7 +5,7 @@ import "../styles/Css/hero.css";
 const Hero = () => {
   return (
     <>
-      <section className="hero">
+      <section id="hero" className="hero">
         <h1 className="hero_title">
           Fotos profissionais gratuitas e imagens compartilhadas por criadores
           para você utilizar em seus projetos

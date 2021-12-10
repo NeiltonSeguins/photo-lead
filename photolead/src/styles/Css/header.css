@@ -1,3 +1,7 @@
+:root {
+  scroll-behavior: smooth;
+}
+
 .header {
   background-color: #0c0c0c;
 }
@@ -55,6 +59,10 @@
   color: #f7f7f7;
   margin: 0 1rem;
   cursor: pointer;
+}
+.header_li a {
+  text-decoration: none;
+  color: #f7f7f7;
 }
 @media (min-width: 1200px) {
   .header_button {

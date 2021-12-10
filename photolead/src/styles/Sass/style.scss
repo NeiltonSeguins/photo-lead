@@ -1,3 +1,6 @@
+:root {
+  scroll-behavior: smooth;
+}
 
 $font: "Poppins", sans-serif;
 $primary-color: rgb(247, 247, 247);
@@ -5,13 +8,19 @@ $secondary-color: rgb(12, 12, 12);
 $terciary-color: rgb(182, 182, 182);
 
 @mixin for-phone-only {
-  @media (max-width: 767.98px) { @content; }
+  @media (max-width: 767.98px) {
+    @content;
+  }
 }
 
 @mixin for-tablet-only {
-  @media (min-width: 768px) and (max-width: 1199.98px) { @content; }
+  @media (min-width: 768px) and (max-width: 1199.98px) {
+    @content;
+  }
 }
 
 @mixin for-desktop-only {
-  @media (min-width: 1200px) { @content; }
+  @media (min-width: 1200px) {
+    @content;
+  }
 }

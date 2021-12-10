@@ -6,12 +6,12 @@ import "../styles/Css/header.css";
 const Header = () => {
   return (
     <>
-      <header className="header">
+      <header id="inicio" className="header">
         <div>
           <img className="header_img" src={logo} alt="Logotipo da Photolead" />
           <nav className="header_nav">
             <ul className="header_ul">
-              <li className="header_li">Explorar</li>
+              <li className="header_li"><a href="#main">Explorar</a></li>
               <li className="header_li">Entrar</li>
             </ul>
             <img className="header_icon" src={upload} alt="Clique aqui para fazer upload de uma foto" />

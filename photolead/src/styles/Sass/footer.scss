@@ -1,0 +1,126 @@
+@import "style";
+
+.footer {
+  background-color: $secondary-color;
+  font-family: $font;
+  font-size: 14px;
+  color: $primary-color;
+  height: 443px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+
+  &_credits {
+    margin: 0 auto;
+    text-align: end;
+    a {
+      font-size: 14px;
+      text-decoration: none;
+      color: $primary-color;
+    }
+    @include for-desktop-only {
+      width: 1170px;
+    }
+  }
+
+  &_principal {
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+    margin: 60px auto;
+
+    @include for-desktop-only {
+      width: 1170px;
+    }
+  }
+
+  &_empresa {
+    margin-right: 42px;
+    h4 {
+      font-size: 16px;
+      font-weight: 700;
+    }
+
+    h4::before {
+      content: url("../../img/empresa.svg");
+      margin-right: 16px;
+    }
+
+    ul li {
+      margin: 32px 0;
+      a {
+        text-decoration: none;
+        color: $primary-color;
+      }
+    }
+
+    @include for-phone-only {
+      text-align: center;
+    }
+  }
+
+  &_comunidade {
+    h4 {
+      font-size: 16px;
+      font-weight: 700;
+    }
+
+    h4::before {
+      content: url("../../img/comunidade.svg");
+      margin-right: 12px;
+    }
+
+    ul li {
+      margin: 32px 0;
+      a {
+        text-decoration: none;
+        color: $primary-color;
+      }
+    }
+    @include for-phone-only {
+      text-align: center;
+    }
+  }
+
+  &_redes-sociais {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 10px auto;
+
+    @include for-desktop-only {
+      width: 1170px;
+    }
+
+    h5 {
+      font-size: 12px;
+      @include for-phone-only {
+        display: none;
+      }
+      @include for-tablet-only {
+        display: none;
+      }
+    }
+  }
+
+  &_div {
+    width: 100%;
+    position: relative;
+    border-bottom: 1px solid $terciary-color;
+    bottom: -5px;
+  }
+
+  &_icons {
+    img {
+      margin-right: 16px;
+      width: 25px;
+      height: 25px;
+      cursor: pointer;
+
+      @include for-phone-only {
+        width: 15px;
+        height: 15px;
+      }
+    }
+  }
+}
