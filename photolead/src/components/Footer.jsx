@@ -1,7 +1,7 @@
 import React from "react";
 import instagram from "../img/instagram.svg";
-import facebook from "../img/facebook.svg";
-import twitter from "../img/twitter.svg";
+import github from "../img/github.svg";
+import linkedin from "../img/linkedin.svg";
 
 import "../styles/Css/footer.css";
 
@@ -41,11 +41,11 @@ const Footer = () => {
             <a href="https://www.instagram.com/ncode.io/">
               <img src={instagram} alt="" />
             </a>
-            <a href="#">
-              <img src={twitter} alt="" />
+            <a href="https://github.com/NeiltonSeguins">
+              <img src={github} alt="" />
             </a>
-            <a href="#">
-              <img src={facebook} alt="" />
+            <a href="https://www.linkedin.com/in/ne%C3%ADlton-seguins-bb8786a6/">
+              <img src={linkedin} alt="" />
             </a>
           </div>
         </div>

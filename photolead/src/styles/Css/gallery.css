@@ -49,32 +49,5 @@
 .gallery_photo:hover {
   filter: brightness(0.5);
 }
-.gallery_button {
-  width: 95%;
-  border-radius: 8px;
-  border: none;
-  height: 51px;
-  font-size: 18px;
-  background: #0c0c0c;
-  color: #f7f7f7;
-  font-family: "Poppins", sans-serif;
-  margin: 20px auto;
-  cursor: pointer;
-}
-@media (min-width: 1200px) {
-  .gallery_button {
-    width: 1170px;
-  }
-}
-@media (min-width: 768px) and (max-width: 1199.98px) {
-  .gallery_button {
-    font-size: 14px;
-  }
-}
-@media (max-width: 767.98px) {
-  .gallery_button {
-    font-size: 12px;
-  }
-}
 
 /*# sourceMappingURL=gallery.css.map */
