@@ -51,7 +51,7 @@ O layout da aplicação está disponível no Figma:
 <p align="center">
   <img alt="PhotoleadMobile" title="#PhotoleadMobile" src="./assets/mobile.png" width="200px">
 
-  <img alt="PhotoleadMobile" title="#PhotoleadMobile" src="./assets/mobile-footer.svg" width="200px">
+  <img alt="PhotoleadMobile" title="#PhotoleadMobile" src="./assets/mobile-footer.png" width="200px">
 </p>
 
 ### Tablet
@@ -86,7 +86,7 @@ As seguintes ferramentas foram usadas na construção do projeto:
 
 #### **Website**
 
-- **([React](https://reactjs.org/))**
+- **[React](https://reactjs.org/)**
 - **[Sass](https://sass-lang.com/)**
 
 #### **Utilitários**
@@ -102,9 +102,9 @@ As seguintes ferramentas foram usadas na construção do projeto:
 ## 🦸 Autor
 
 <a href="https://www.instagram.com/ncode.io/">
- <img style="border-radius: 50%;" src="./assets/neilton-seguins" width="100px;" alt=""/>
+ <img style="border-radius: 50%;" src="./assets/neilton-seguins.jpeg" width="100px;" alt=""/>
  <br />
- <sub><b>Thiago Marinho</b></sub></a> <a href="https://blog.rocketseat.com.br/author/thiago/" title="Rocketseat">🚀</a>
+ <sub><b>Neilton Seguins</b></sub></a> <a href="https://www.linkedin.com/in/tgmarinho/" title="Photolead">🚀</a>
  <br />
 
 [![Linkedin Badge](https://img.shields.io/badge/-Neilton-blue?style=flat-square&logo=Linkedin&logoColor=white&link=https://www.linkedin.com/in/ne%C3%ADlton-seguins-bb8786a6/)](https://www.linkedin.com/in/tgmarinho/)
