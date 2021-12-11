@@ -42,7 +42,6 @@ const Main = () => {
   return (
     <>
       <main id="main" className="main">
-        {/* <Hero /> */}
         <section id="hero" className="hero">
           <h1 className="hero_title">
             Fotos profissionais gratuitas e imagens compartilhadas por criadores
@@ -83,14 +82,13 @@ const Main = () => {
                     alt=""
                   />
                   <div className="gallery_author">
-                    <h3>Foto: {photo.photographer}</h3>
+                    <h2>Foto: {photo.photographer}</h2>
                   </div>
                 </div>
               );
             })}
           </div>
         </section>
-        {/* <Gallery data={data} /> */}
       </main>
     </>
   );

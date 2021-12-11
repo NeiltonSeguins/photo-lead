@@ -8,10 +8,10 @@ import "../styles/Css/footer.css";
 const Footer = () => {
   return (
     <>
-      <section className="footer">
+      <section id="footer" className="footer">
         <div className="footer_principal">
           <div className="footer_empresa">
-            <h4>Empresa</h4>
+            <h3>Empresa</h3>
             <ul>
               <li>Quem somos</li>
               <li>Junte-se ao time</li>
@@ -20,7 +20,7 @@ const Footer = () => {
             </ul>
           </div>
           <div className="footer_comunidade">
-            <h4>Comunidade</h4>
+            <h3>Comunidade</h3>
             <ul>
               <li>Contribua</li>
               <li>Explore</li>
@@ -36,7 +36,7 @@ const Footer = () => {
         </div>
         <div className="footer_div"></div>
         <div className="footer_redes-sociais">
-          <h5>Neilton Seguins All Rigth Reserved &copy;</h5>
+          <h4>Neilton Seguins All Rigth Reserved &copy;</h4>
           <div className="footer_icons">
             <a href="https://www.instagram.com/ncode.io/">
               <img src={instagram} alt="" />
