@@ -108,7 +108,7 @@ As seguintes ferramentas foram usadas na construção do projeto:
  <sub><b>Neilton Seguins</b></sub></a> <a href="https://www.linkedin.com/in/tgmarinho/" title="Photolead">🚀</a>
  <br />
 
-[![Linkedin Badge](https://img.shields.io/badge/-Neilton Seguins-blue?style=flat-square&logo=Linkedin&logoColor=white&link=https://www.linkedin.com/in/ne%C3%ADlton-seguins-bb8786a6/)](https://www.linkedin.com/in/tgmarinho/)
+[![Linkedin Badge](https://img.shields.io/badge/-NeiltonSeguins-blue?style=flat-square&logo=Linkedin&logoColor=white&link=https://www.linkedin.com/in/ne%C3%ADlton-seguins-bb8786a6/)](https://www.linkedin.com/in/tgmarinho/)
 [![Gmail Badge](https://img.shields.io/badge/-seguins.neilton@gmail.com-c14438?style=flat-square&logo=Gmail&logoColor=white&link=mailto:seguins.neilton@gmail.com)](mailto:seguins.neilton@gmail.com)
 
 ---
