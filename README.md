@@ -1,12 +1,6 @@
 <h4 align="center"> 
 	🚧  Photolead 📸 🚧
 </h4>
-
-
-<h1 align="center">
-    <img alt="Photolead" title="#Photolead" src="./assets/banner.png" />
-</h1>
-
 <p align="center">
  <a href="#-sobre-o-projeto">Sobre</a> •
  <a href="#-funcionalidades">Funcionalidades</a> •
@@ -15,6 +9,10 @@
  <a href="#-autor">Autor</a> • 
  <a href="#user-content--licença">Licença</a>
 </p>
+
+<h1 align="center">
+    <img alt="Photolead" title="#Photolead" src="./assets/banner.png" />
+</h1>
 
 ## 💻 Sobre o projeto
 
