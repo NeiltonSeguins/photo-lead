@@ -1,10 +1,11 @@
+<h4 align="center"> 
+	🚧  Photolead 📸 🚧
+</h4>
+
+
 <h1 align="center">
     <img alt="Photolead" title="#Photolead" src="./assets/banner.png" />
 </h1>
-
-<h4 align="center"> 
-	🚧  Photolead 📸 Concluído 🚀 🚧
-</h4>
 
 <p align="center">
  <a href="#-sobre-o-projeto">Sobre</a> •
@@ -29,11 +30,11 @@
 
 ### Em breve
 
-- [x] Poder fazer upload de uma imagem para um banco de dados:
-  - [x] não é o do pexels, e sim um próprio só para exibir a funcionalidade
-- [x] Poder carregar mais de 50 resultados por página
-- [x] Navegar entre páginas de resultados
-- [x] Recurso de surpreender-se
+- Poder fazer upload de uma imagem para um banco de dados:
+  - não é o do pexels, e sim um próprio só para exibir a funcionalidade
+- Poder carregar mais de 50 resultados por página
+- Navegar entre páginas de resultados
+- Recurso de surpreender-se
   - Ao clicar nesta aba receber imagens escolhidas a dedo pelos colaboradores do pexels api
 
 ---
@@ -107,7 +108,7 @@ As seguintes ferramentas foram usadas na construção do projeto:
  <sub><b>Neilton Seguins</b></sub></a> <a href="https://www.linkedin.com/in/tgmarinho/" title="Photolead">🚀</a>
  <br />
 
-[![Linkedin Badge](https://img.shields.io/badge/-Neilton-blue?style=flat-square&logo=Linkedin&logoColor=white&link=https://www.linkedin.com/in/ne%C3%ADlton-seguins-bb8786a6/)](https://www.linkedin.com/in/tgmarinho/)
+[![Linkedin Badge](https://img.shields.io/badge/-Neilton Seguins-blue?style=flat-square&logo=Linkedin&logoColor=white&link=https://www.linkedin.com/in/ne%C3%ADlton-seguins-bb8786a6/)](https://www.linkedin.com/in/tgmarinho/)
 [![Gmail Badge](https://img.shields.io/badge/-seguins.neilton@gmail.com-c14438?style=flat-square&logo=Gmail&logoColor=white&link=mailto:seguins.neilton@gmail.com)](mailto:seguins.neilton@gmail.com)
 
 ---
