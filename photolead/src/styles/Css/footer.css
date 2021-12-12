@@ -40,11 +40,11 @@
 .footer_empresa {
   margin-right: 42px;
 }
-.footer_empresa h4 {
+.footer_empresa h3 {
   font-size: 16px;
   font-weight: 700;
 }
-.footer_empresa h4::before {
+.footer_empresa h3::before {
   content: url("../../img/empresa.svg");
   margin-right: 16px;
 }
@@ -60,11 +60,11 @@
     text-align: center;
   }
 }
-.footer_comunidade h4 {
+.footer_comunidade h3 {
   font-size: 16px;
   font-weight: 700;
 }
-.footer_comunidade h4::before {
+.footer_comunidade h3::before {
   content: url("../../img/comunidade.svg");
   margin-right: 12px;
 }

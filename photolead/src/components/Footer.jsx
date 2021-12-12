@@ -8,7 +8,7 @@ import "../styles/Css/footer.css";
 const Footer = () => {
   return (
     <>
-      <section id="footer" className="footer">
+      <footer id="footer" className="footer">
         <div className="footer_principal">
           <div className="footer_empresa">
             <h3>Empresa</h3>
@@ -49,7 +49,7 @@ const Footer = () => {
             </a>
           </div>
         </div>
-      </section>
+      </footer>
     </>
   );
 };

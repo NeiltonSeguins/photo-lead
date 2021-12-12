@@ -36,12 +36,12 @@
 
   &_empresa {
     margin-right: 42px;
-    h4 {
+    h3 {
       font-size: 16px;
       font-weight: 700;
     }
 
-    h4::before {
+    h3::before {
       content: url("../../img/empresa.svg");
       margin-right: 16px;
     }
@@ -60,12 +60,12 @@
   }
 
   &_comunidade {
-    h4 {
+    h3 {
       font-size: 16px;
       font-weight: 700;
     }
 
-    h4::before {
+    h3::before {
       content: url("../../img/comunidade.svg");
       margin-right: 12px;
     }

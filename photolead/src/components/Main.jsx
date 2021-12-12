@@ -6,7 +6,7 @@ import "../styles/Css/gallery.css";
 import "../styles/Css/hero.css";
 
 const Main = () => {
-  const apiKey = process.env.PEXELS_API_KEY;
+  const apiKey = 'SUA_API_KEY';
   const URL = `https://api.pexels.com/v1/curated?page=1&per_page=30`;
 
   const [search, setSearch] = useState("");

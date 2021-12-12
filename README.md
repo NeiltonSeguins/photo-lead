@@ -76,7 +76,7 @@ $ npm install
 $ npm run start
 # A aplicação será aberta na porta:3000 - acesse http://localhost:3000
 ```
-
+- Obs: Antes de executar o npm run start coloque sua API_KEY no espaço reservado, que é na linha 9 do arquivo Main.jsx. Por questões de segurança não deixei explícita minha chave api, mas é possível ter a sua **[aqui](https://www.pexels.com/pt-br/api/)**
 ---
 
 ## 🛠 Tecnologias
